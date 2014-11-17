@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_filechooser">Archivos</string>
+    <string name="folder">Carpeta</string>
+    <string name="parentDirectory">Atrás</string>
+    <string name="fileSize">Tamaño</string>
+    <string name="currentDir">Directorio</string>
+</resources>

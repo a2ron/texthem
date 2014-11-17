@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Texthem</string>
+    <string name="hello_world">Hola MarketingSMS</string>
+    <string name="action_settings">Configuración</string>
+    <string name="menu_import">Importar Contactos</string>
+    <string name="contactosFueronImportados">contactos fueron importados</string>
+    <string name="mensajesEnviados">mensajes enviados</string>
+    <string name="EnvioRealizado">Envío realizado</string>
+    <string name="Enviar">Enviar</string>
+    <string name="smsPlaceHolder">Escriba el mensaje aquí</string>
+    <string name="deseaBorrarContactosExistentes">¿Desea borrar los contactos existentes?</string>
+    <string name="deseaEnviar">¿Desea enviar</string>
+    <string name="mensajes_interClose">mensajes?</string>
+    <string name="Si">Si</string>
+    <string name="Ok">Ok</string>
+    <string name="No">No</string>
+    <string name="Importacion">Importación</string>
+    <string name="ImportandoContactos">Importando Contactos</string>
+    <string name="EnviandoMensajes">Enviando mensajes</string>
+    <string name="PorFavorEspere">Por favor, espere</string>
+    <string name="zero">0</string>
+    <string name="separatorCount">/</string>
+
+    <!-- WILDCARDS -->
+    <string name="Cnombre">#nombre</string>
+    <string name="Capellidos">#apellidos</string>
+
+    <!-- PARAMS -->
+    <string name="max_chars_sms">160</string>
+
+    <!-- ERRORS -->
+    <string name="e_0xa201">ERROR 0xa201: No se pudieron importar los contactos</string>
+    <string name="title_activity_smslist">Contactos</string>
+    <string name="SeleccionarContactos">Seleccionar Contactos</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="Todos">Todos</string>
+    <string name="Ninguno">Ninguno</string>
+
+</resources>

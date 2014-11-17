@@ -1,0 +1,59 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:id="@+id/mainLayout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_info"
+        android:gravity="end"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/zero"
+            android:id="@+id/t_charCount" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/separatorCount"
+            android:id="@+id/t_sep" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/max_chars_sms"
+            android:id="@+id/t_charMax" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_sms"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:background="@drawable/edittext"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:hint="@string/smsPlaceHolder"
+        android:layout_weight="1.00" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SeleccionarContactos"
+        android:id="@+id/b_selContacts"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false" />
+
+</LinearLayout>
